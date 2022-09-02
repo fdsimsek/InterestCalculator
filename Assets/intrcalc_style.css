@@ -1,0 +1,38 @@
+.root{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Courier New";
+    -fx-base: rgb(59, 156, 180);
+    -fx-background: rgb(9, 174, 250);
+}
+
+.text-field {
+-fx-background-color: rgb(125.0, 125.0, 125.0);
+-fx-background-radius: 10.0;
+-fx-text-fill: whitesmoke;
+-fx-prompt-text-fill: rgb(94.0, 203.0, 234.0);
+}
+
+.button {
+-fx-background-color: rgb(250, 250, 250);
+-fx-text-fill: black;
+-fx-font-size: 14;
+-fx-font-weight: bold;
+
+}
+
+.button:hover{
+-fx-background-color: green;
+-fx-text-fill: black;
+-fx-font-size: 15;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+
+}
+
+list-view {
+
+}
+
+#gridPane {
+-fx-background-color: mediumaquamarine;
+}
